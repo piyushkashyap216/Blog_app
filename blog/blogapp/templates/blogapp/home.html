@@ -1,7 +1,7 @@
 {% extends "blogapp/base.html"%}
 {%block content%}
 {%for posts in post%}
-<article class="media content-section">
+<article class="media content-section box-shadow">
     <img class="rounded-circle article-img" src="{{ posts.author.profile.image.url }}" alt="{{posts.author}}">
     <div class="media-body">
         <div class="article-metadata" style="font-size:12px">
